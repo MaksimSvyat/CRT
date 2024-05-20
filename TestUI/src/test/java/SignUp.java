@@ -43,7 +43,7 @@ public class SignUp {
     }
 
     public void assertErrorMessage(String expectedText) {
-        String actualText = getAllegedMessageText();
+        String actualText = getMessageText();
         assertEquals(expectedText, actualText);
     }
 

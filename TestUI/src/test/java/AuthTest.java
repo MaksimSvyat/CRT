@@ -153,7 +153,7 @@ public class AuthTest extends BaseTest {
         signUpPage.enterPassword(VALID_PASSWORD1);
         signUpPage.clickSignUpButton();
 
-        signUpPage.assertAllegedErrorMessage(SIGNUP_ERROR_MESSAGE);
+        signUpPage.assertErrorMessage(SIGNUP_ERROR_MESSAGE);
     }
 
     @Test
